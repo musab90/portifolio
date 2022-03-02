@@ -68,18 +68,16 @@ header .container{
 
 
 @media screen and (max-width: 320px) {
-    .menus{
-        font-size: 1.4rem;
-        text-align: center;
-        margin-left: -6px;
-    }
-    .menus > .btns{
-        padding: 10px;
-        font-size: 1rem;
+    
+    .container{
+        width: 100vw;
+        height: 50vh;
         
     }
-    .showCase > img{
-        display: none;
+    .menus{
+        width: 100vw;
+        height: 100vh;
+        padding-left: 20%;
     }
      
     
