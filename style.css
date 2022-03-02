@@ -69,27 +69,26 @@ header .container{
 
 @media screen and (max-width: 320px) {
     .menus{
-       font-size: 1.4rem;
-       
-   }
-   
-   .menus > .btns{
-       padding: 10px;
-       font-size: 1rem;
-       
-   }
-   .showCase > img{
-       object-fit: contain;
-       width: 100%;
-       margin-left: -20%;
-       margin-top: -30%;
-   }
+        font-size: 1.4rem;
+        text-align: center;
+        margin-left: -6px;
+    }
+    .menus > .btns{
+        padding: 10px;
+        font-size: 1rem;
+        
+    }
+    .showCase > img{
+        display: none;
+    }
+     
     
 }
 @media screen and (max-width: 375px) {
     .menus{
        font-size: 1.4rem;
-       
+       text-align: center;
+       margin-left: -6px;
    }
    .menus > .btns{
        padding: 10px;
@@ -97,17 +96,19 @@ header .container{
        
    }
    .showCase > img{
-       object-fit: contain;
-       width: 100%;
-       margin-left: -20%;
-       margin-top: -30%;
+       display: none;
    }
     
 }
 @media screen and (max-width: 400px) {
     .menus{
        font-size: 1.8rem;
+       text-align: center;
+       margin-left: -6px;
        
+   }
+   h4{
+       margin-top: 5px;
    }
    .menus > .btns{
        padding: 10px;
@@ -115,10 +116,7 @@ header .container{
        
    }
    .showCase > img{
-       object-fit: contain;
-       width: 100%;
-       margin-left: -20%;
-       margin-top: -30%;
+      display: none;
    }
     
 }
