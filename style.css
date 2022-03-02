@@ -100,6 +100,22 @@ header .container{
    }
     
 }
+@media screen and (max-width: 290px) {
+    .menus{
+       font-size: 1.4rem;
+       text-align: center;
+       margin-left: -6px;
+   }
+   .menus > .btns{
+       padding: 10px;
+       font-size: 1rem;
+       
+   }
+   .showCase > img{
+       display: none;
+   }
+    
+}
 @media screen and (max-width: 400px) {
     .menus{
        font-size: 1.8rem;
