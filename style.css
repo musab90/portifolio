@@ -111,6 +111,12 @@ header .container{
         padding-left: 17%;
         padding-top: 50% ;
     }
+    .showCase{
+        display: none;
+    }
+    .showCase > img{
+        display: none;
+    }
     
 }
 @media screen and (max-width: 400px) {
