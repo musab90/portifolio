@@ -51,21 +51,20 @@ li{
 
 
 .icon{
-    width: 10px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
     position: absolute;
-    bottom: 0%;
-    left: 50%;
+    bottom: 5%;
+    margin-left: 39%;
+    animation: move 1s infinite ease-in-out;
+}
+.icon > i {
+    font-size: 1.8rem;
+    
+}
+.arrows{
+    
 }
 
-span{
-   display: flex;
-   
-}
+
 /* span:nth-child(1){
     transform: rotate(-45deg);
    
@@ -74,6 +73,7 @@ span:nth-child(2){
     transform: rotate(45deg);
    
 } */
+
 
 @keyframes move {
     0%{margin-top: 0%;}
