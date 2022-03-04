@@ -211,6 +211,22 @@ span:nth-last-child(2){
         margin-bottom: 59%;
     }
 }
+@media screen and (max-width:380px) {
+    .logo{
+        margin-left: 2%;
+    }
+    .img{
+        display: none;
+    }
+    .menus{
+        text-align: center;
+        margin-left: 10%;
+    }
+    .icone{
+        margin-left: 59%;
+        margin-bottom: 60%;
+    }
+}
 
 @media all and (max-width:377px) {
     .logo{
