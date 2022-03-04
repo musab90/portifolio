@@ -145,7 +145,41 @@ span:nth-last-child(2){
         margin-left: 5%;
     }
 }
+@media screen and (max-width:505px) {
+    .logo{
+        margin-left: -4%;
+    }
+    .img{
+        display: none;
+    }
+    .menus{
+        text-align: center;
+        margin-left: 15%;
+    }
+    .icone{
+        margin-left: -20%;
+        margin-bottom: 60%;
+    }
+}
 
+@media screen and (max-width:493px) {
+    .logo{
+        margin-left: 5%;
+    }
+    .img{
+        display: none;
+    }
+    .menus{
+        text-align: center;
+        margin-left: 25%;
+    }
+    .icone{
+        margin-left: 59%;
+    }
+    .con{
+        text-align: center;
+    }
+}
 @media all and (max-width:485px) {
     .logo{
         margin-left: 10%;
@@ -159,6 +193,22 @@ span:nth-last-child(2){
     }
     .icone{
         margin-left: 59%;
+    }
+}
+@media screen and (max-width:483px) {
+    .logo{
+        margin-left: 2%;
+    }
+    .img{
+        display: none;
+    }
+    .menus{
+        text-align: center;
+        margin-left: 25%;
+    }
+    .icone{
+        margin-left: 59%;
+        margin-bottom: 59%;
     }
 }
 
