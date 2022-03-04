@@ -177,3 +177,19 @@ span:nth-last-child(2){
         margin-left: 5%;
     }
 }
+@media all and (max-width:371px) {
+    .logo{
+        margin-left: -2%;
+    }
+    .img{
+        display: none;
+    }
+    .menus{
+        text-align: center;
+        margin-left: 10%;
+    }
+    .icone{
+        margin-left: 5%;
+        margin-bottom: 66%;
+    }
+}
