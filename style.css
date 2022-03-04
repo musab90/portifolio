@@ -31,6 +31,10 @@ li{
     font-size: 1.8em;
     font-style: italic ;
 }
+.showCase{
+    margin-left: 27%;
+    margin-bottom: 7%;
+}
 .btns{
     padding: 5px 10px;
     border-radius: 10px;
@@ -50,27 +54,46 @@ li{
 }
 
 
-.icon{
+.icons{
     position: absolute;
     bottom: 5%;
-    margin-left: 39%;
-    animation: move 1s infinite ease-in-out;
-}
-.icon > i {
-    font-size: 1.8rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    line-height: 10vh;
+    margin-left: 39% ;
     
 }
-.arrows{
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 10vh;
+    margin-left: -40%;
+    
+    /* margin: 6%; */
     
 }
 
-
-/* span:nth-child(1){
-    transform: rotate(-45deg);
-   
+span{
+    /* display: flex; */
+    width: 5px;
+    height: 27px;
+    background: white;
+    margin: 6px;
+    font-size: 1.1rem;
+    animation: move 2s infinite ease-in-out;
 }
-span:nth-child(2){
-    transform: rotate(45deg);
+span:nth-last-child(1){
+     transform: rotate(45deg);
+}
+span:nth-last-child(2){
+     transform: rotate(-45deg);
+}
+
+/* .icon span{
+    
    
 } */
 
@@ -78,5 +101,79 @@ span:nth-child(2){
 @keyframes move {
     0%{margin-top: 0%;}
     50%{margin-top: 100px;}
-    100%{margin-top: 0%;}
+    100%{margin-top:  0%;}
+}
+
+@media screen and (max-width:933px) {
+    .con{
+        position: relative;
+    }
+    .img{
+        position: absolute;
+        right: 10%;
+        top: 20%;
+    }
+}
+@media screen and (max-width:645px) {
+    .con{
+        position: relative;
+    }
+    .logo{
+        position: absolute;
+        left: 40%;
+    }
+    .img{
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        object-fit: contain;
+        width: 40%;
+    }
+}
+@media all and (max-width:507px) {
+    .logo{
+        margin-left: 30%;
+    }
+    .img{
+        display: none;
+    }
+    .menus{
+        text-align: center;
+        margin-left: 15%;
+    }
+    .icone{
+        margin-left: 5%;
+    }
+}
+
+@media all and (max-width:485px) {
+    .logo{
+        margin-left: 10%;
+    }
+    .img{
+        display: none;
+    }
+    .menus{
+        text-align: center;
+        margin-left: 25%;
+    }
+    .icone{
+        margin-left: 59%;
+    }
+}
+
+@media all and (max-width:377px) {
+    .logo{
+        margin-left: 7%;
+    }
+    .img{
+        display: none;
+    }
+    .menus{
+        text-align: center;
+        margin-left: 10%;
+    }
+    .icone{
+        margin-left: 5%;
+    }
 }
