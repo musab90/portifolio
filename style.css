@@ -130,6 +130,22 @@ span:nth-last-child(2){
         width: 40%;
     }
 }
+@media screen and (max-width:606px) {
+    .con{
+        position: relative;
+    }
+    .logo{
+        position: absolute;
+        left: 40%;
+    }
+    .img{
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        object-fit: contain;
+        width: 40%;
+    }
+}
 @media all and (max-width:507px) {
     .logo{
         margin-left: 30%;
@@ -211,6 +227,14 @@ span:nth-last-child(2){
         margin-left: 59%;
         margin-bottom: 59%;
     }
+}
+@media screen and (max-width:404px) {
+    .menus{
+        text-align: center;
+        margin-left: 20%;
+        
+    }
+    
 }
 @media screen and (max-width:400px) {
     .con{
