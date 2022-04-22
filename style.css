@@ -236,11 +236,19 @@ span:nth-last-child(2){
     }
     
 }
-@media screen and (max-width:412px) {
+@media screen and (max-width:417px) {
     .menus{
         text-align: center;
         margin-left: 20%;
         
+    }
+    
+}
+@media screen and (max-width:412px) {
+    .menus{
+        text-align: center;
+        margin-left: 20%;
+        /* font-size: 100px; */
     }
     
 }
