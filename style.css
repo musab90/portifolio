@@ -236,6 +236,22 @@ span:nth-last-child(2){
     }
     
 }
+@media screen and (max-width:412px) {
+    .menus{
+        text-align: center;
+        margin-left: 20%;
+        
+    }
+    
+}
+@media screen and (max-width:411px) {
+    .menus{
+        text-align: center;
+        margin-left: 20%;
+        
+    }
+    
+}
 @media screen and (max-width:400px) {
     .con{
         position: relative;
