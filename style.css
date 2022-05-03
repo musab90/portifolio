@@ -167,6 +167,14 @@ span:nth-last-child(2){
         margin-bottom: 50%;
     }
 }
+@media screen and (max-width:507px) {
+    .con{
+        padding-left: 5%;
+    }
+    .logo{
+        margin-left: -3%;
+    }
+}
 @media screen and (max-width:505px) {
     .logo{
         margin-left: -4%;
@@ -239,6 +247,9 @@ span:nth-last-child(2){
         margin-left: 20%;
         
     }
+    .icone{
+        margin-bottom: 10%;
+    }
     
 }
 @media screen and (max-width:417px) {
@@ -265,28 +276,7 @@ span:nth-last-child(2){
     }
     
 }
-@media screen and (max-width:400px) {
-    .con{
-        position: relative;
-        
-    }
-    .logo{
-        margin-left: 2%;
-    }
-    .img{
-        display: none;
-    }
-    .menus{
-        text-align: center;
-        margin-left: 20%;
-        
-    }
-    .icone{
-      position: absolute;
-      top: 0%;
-      background-color: aqua;
-    }
-}
+
 @media screen and (max-width:398px) {
     .logo{
         margin-left: 2%;
