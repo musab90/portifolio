@@ -14,6 +14,7 @@ li{
     width: 100vw;
     height: 100vh;
     position: relative;
+    
 }
 .itemes{
     position: absolute;
@@ -35,14 +36,18 @@ li{
     margin-left: 27%;
     margin-bottom: 7%;
 }
+.at{
+    margin-left: 20px;
+    padding: 20px;
+}
 .btns{
-    padding: 5px 10px;
-    border-radius: 10px;
-    color: white;
-    background: orange;
-    font-size: 1.1rem;
-    outline: none;
-    border: none;
+    margin-top: 20px;
+    padding: 8px 40px;
+    background: none;
+    border: 2px solid white;
+    color: rgba(231, 162, 33, 0.925);
+    border-radius: 20px;
+    
 }
 .btns:hover{
     background: white;
